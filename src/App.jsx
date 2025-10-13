@@ -5,10 +5,12 @@ import BlogOverview from "./pages/blog-overview/BlogOverview.jsx";
 import Error404 from "./pages/error404/Error404.jsx";
 import Home from "./pages/home/Home.jsx";
 import NewPost from "./pages/new-post/NewPost.jsx";
+import Navigation from "./components/navigation/Navigation.jsx";
 
 function App() {
     return (
         <>
+            <Navigation/>
             <Routes>
                 <Route path="/" element={<Home/>}/>
                 <Route path="/blog-overview" element={<BlogOverview/>}/>
