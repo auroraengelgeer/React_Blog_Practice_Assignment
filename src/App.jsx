@@ -7,6 +7,7 @@ import Home from "./pages/home/Home.jsx";
 import NewPost from "./pages/new-post/NewPost.jsx";
 import Navigation from "./components/navigation/Navigation.jsx";
 import BlogpostDetail from "./pages/BlogpostDetail/BlogpostDetail.jsx";
+import Footer from "./components/footer/Footer.jsx";
 
 function App() {
     return (
@@ -20,6 +21,7 @@ function App() {
                 <Route path="/posts/:id" element={<BlogpostDetail/>}/>
                 <Route path="*" element={<Error404/>}/>
             </Routes>
+            <Footer/>
         </>
     )
 }
