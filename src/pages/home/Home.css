@@ -1,0 +1,29 @@
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    text-align: center;
+    padding: 2rem;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* afbeelding gecentreerd */
+    margin-top: 2rem;
+}
+
+.logo-container img {
+    max-width: 100%;
+    max-height: 120px;
+}
+
+.logo-container .footnote {
+    align-self: flex-end; /* footnote rechts uitlijnen binnen de container */
+    font-size: 0.8rem;
+    color: #555;
+    margin-top: 0.3rem; /* ruimte tussen afbeelding en footnote */
+    padding-right: 0.5rem; /* iets van de rand af */
+}

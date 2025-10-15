@@ -1,5 +1,4 @@
 import './App.css'
-import logo from './assets/logo-white.png'
 import {Route, Routes} from "react-router-dom";
 import BlogOverview from "./pages/blog-overview/BlogOverview.jsx";
 import Error404 from "./pages/error404/Error404.jsx";
