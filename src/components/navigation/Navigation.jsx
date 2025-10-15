@@ -7,7 +7,7 @@ function Navigation() {
     return (
         <nav>
             <div className="nav-container">
-                <img src={logo} className="logo" alt="logo"/>
+                <img src={logo} className="nav-logo" alt="logo"/>
                 <ul>
                     <li>
                         <NavLink

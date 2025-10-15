@@ -6,6 +6,7 @@ import Error404 from "./pages/error404/Error404.jsx";
 import Home from "./pages/home/Home.jsx";
 import NewPost from "./pages/new-post/NewPost.jsx";
 import Navigation from "./components/navigation/Navigation.jsx";
+import BlogpostDetail from "./pages/BlogpostDetail/BlogpostDetail.jsx";
 
 function App() {
     return (
@@ -16,6 +17,8 @@ function App() {
                 <Route path="/blog-overview" element={<BlogOverview/>}/>
                 <Route path="/new-post" element={<NewPost/>}/>
                 <Route path="/error404" element={<Error404/>}/>
+                <Route path="/posts/:id" element={<BlogpostDetail/>}/>
+                <Route path="*" element={<Error404/>}/>
             </Routes>
         </>
     )
