@@ -1,7 +1,7 @@
 import React from 'react';
 import {useParams} from 'react-router-dom';
 import data from '../../constants/data.json'
-import dateConvertor from "../../helpers/date-convertor/dateConvertor.jsx";
+import dateConvertor from "../../helpers/dateConvertor.js";
 
 function BlogpostDetail() {
 
