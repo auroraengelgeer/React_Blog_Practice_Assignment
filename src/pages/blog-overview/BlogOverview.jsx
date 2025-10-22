@@ -1,6 +1,7 @@
 import React from 'react';
 import data from "../../constants/data.json"
 import {Link} from "react-router-dom";
+import './BlogOverview.css'
 
 function BlogOverview() {
     return (
