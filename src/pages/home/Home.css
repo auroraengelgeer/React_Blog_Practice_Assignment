@@ -1,0 +1,17 @@
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    text-align: center;
+    padding: 2rem;
+}
+
+.homepage-container img {
+    border-radius: 15px;
+}
+
+.homepage-container p {
+    text-align: end;
+}
